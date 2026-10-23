@@ -3,7 +3,7 @@ resource "aws_instance" "name" {
     instance_type = "t2.medium"
     availability_zone = "us-east-1b"
     tags = {
-        Name = "Manoj"
+        Name = "Tester"
     }
 
   
