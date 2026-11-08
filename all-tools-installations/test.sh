@@ -10,7 +10,7 @@ sudo dnf install java-25-amazon-corretto-devel fontconfig -y
 
 # Verify Java installation
 java -version
-*Verification:* The command outputs `openjdk version "25"` or higher.
+#*Verification:* The command outputs `openjdk version "25"` or higher.
 
 #--------------- Jenkins Install ---------------
 # Add Jenkins repo
@@ -29,7 +29,7 @@ sudo systemctl start jenkins
 
 # Check status
 sudo systemctl status jenkins
-*Verification:* The status displays `active (running)` in green text.
+#*Verification:* The status displays `active (running)` in green text.
 
 # ------------------install terraform ------------------
 
