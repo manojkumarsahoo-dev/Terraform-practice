@@ -24,8 +24,8 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo dnf install jenkins -y
 
 # Enable + start Jenkins service
-sudo systemctl enable jenkins
 sudo systemctl start jenkins
+sudo systemctl enable jenkins
 
 # Check status
 sudo systemctl status jenkins
